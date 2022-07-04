@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[See webpage here](https://ibizugbe.github.io/awesome-book-ES6/))
+[See webpage here](https://ibizugbe.github.io/awesome-book-ES6/)
 
 ## Getting Started
 

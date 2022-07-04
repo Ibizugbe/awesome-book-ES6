@@ -2,7 +2,7 @@
 
 # Awesome Books ES6
 
-> Awesome books is an app where you can add and remof ove list books you are currently reading. This app is built with the latest ES6 technology.
+> Awesome books is an app where you can add and remove list books you are currently reading. This app is built with the latest ES6 technology.
 
 ## Built With
 
@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[See webpage here](https://ibizugbe.github.io/awesome-book-ES6/))
+[See webpage here](https://ibizugbe.github.io/awesome-book-ES6/)
 
 ## Getting Started
 

@@ -1,62 +1,76 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome Books ES6
 
-> Description the project.
-
+> Awesome books is an app where you can add and remof ove list books you are currently reading. This app is built with the latest ES6 technology.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS and Javascript
+- No Frameworks were used.
+- Technologies used include gitFlow, webhint, stylehint, eslint.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+[See webpage here](https://ibizugbe.github.io/awesome-book-ES6/))
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- Create a new folder on your computer
 
-### Setup
+- Open your code editor
+
+- Open the new folder in your code editor
+
+- [Clone this repository](https://github.com/Ibizugbe/awesome-book-ES6)
 
 ### Install
 
-### Usage
+initialise npm to create package.json file
+
+```
+npm init -y
+```
+
+To install webhint Run
+
+```
+npm install --save-dev hint@7.x
+```
+
+To install stylelint Run
+
+```
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+
+To install eslint Run
+
+```
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
 
 ### Run tests
 
-### Deployment
-
-
+`npx hint .`
+`npx eslint .`
+`npx stylelint "**/*.{css,scss}"`
+to check for webhint, eslint and style lint errors
 
 ## Authors
 
-👤 **Author1**
+👤 **Abraham Ibizugbe**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Ibizigbe](https://github.com/Ibizugbe)
+- LinkedIn: [Abraham Ibizugbe](https://www.linkedin.com/in/abraham-ibizugbe-763791115/)nhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Ibizugbe/awesome-book-ES6/issues).
 
 ## Show your support
 

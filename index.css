@@ -5,9 +5,9 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./assets/library-bg.jpg);
-
   background-repeat: no-repeat;
   background-size: calc(100%);
 }
@@ -42,6 +42,7 @@ header {
 
 #current-date {
   color: white;
+  float: right;
 }
 
 .vl {
@@ -55,10 +56,6 @@ header {
   text-decoration: none;
   color: black;
   font-size: 18px;
-}
-
-#current-date {
-  float: right;
 }
 
 #headline {

@@ -1,5 +1,5 @@
-import Library from "./modules/library.js";
-import Book from "./modules/book.js";
+import Library from './modules/library.js';
+import Book from './modules/book.js';
 import {
   displayNewElement,
   booksList,
@@ -10,8 +10,8 @@ import {
   addNewButton,
   showListButton,
   contactInfoButton,
-} from "./modules/html_functions.js";
-import { luxon } from "./modules/luxon.js";
+} from './modules/html_functions.js';
+import { luxon } from './modules/luxon.js';
 
 const library = new Library();
 
@@ -27,35 +27,34 @@ if (library.books.length === 0) {
 }
 
 // Add Event Listener on Add Book button
-const addBookForm = document.getElementById("add-book-form");
-addBookForm.addEventListener("submit", (event) => {
+const addBookForm = document.getElementById('add-book-form');
+addBookForm.addEventListener('submit', (event) => {
   event.preventDefault();
   if (library.books.length === 0) {
-    booksList.innerHTML = "";
+    booksList.innerHTML = '';
   }
   const result = library.addBook(
     new Book(
       addBookForm.elements.title.value,
-      addBookForm.elements.author.value
-    )
+      addBookForm.elements.author.value,
+    ),
   );
   if (result) {
     displayNewElement(result, library);
   }
-  addBookForm.elements.title.value = "";
-  addBookForm.elements.author.value = "";
+  addBookForm.elements.title.value = '';
+  addBookForm.elements.author.value = '';
   showBooksList();
 });
 
-showListButton.addEventListener("click", showListButtonListener);
-addNewButton.addEventListener("click", addNewButtonListener);
-contactInfoButton.addEventListener("click", contactInfoButtonListener);
+showListButton.addEventListener('click', showListButtonListener);
+addNewButton.addEventListener('click', addNewButtonListener);
+contactInfoButton.addEventListener('click', contactInfoButtonListener);
 
 const displayTime = () => {
-  document.getElementById("current-date").innerHTML =
-    luxon.DateTime.now().toLocaleString(
-      luxon.DateTime.DATETIME_MED_WITH_SECONDS
-    );
+  document.getElementById('current-date').innerHTML = luxon.DateTime.now().toLocaleString(
+    luxon.DateTime.DATETIME_MED_WITH_SECONDS,
+  );
   setTimeout(displayTime, 1000);
 };
 displayTime();

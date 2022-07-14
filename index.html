@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Awesome books</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav id="navbar">
+        <a href="index.html" class="brand">Awesome Books</a>
+        <ul>
+          <li>
+            <a href="" id="show-list-button" class="active">List</a>
+          </li>
+          <li>
+            <div class="vl"></div>
+          </li>
+          <li>
+            <a href="" id="add-new-button">Add new</a>
+          </li>
+          <li>
+            <div class="vl"></div>
+          </li>
+          <li>
+            <a href="" id="contact-info-button">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- date and time display -->
+      <div id="current-date"></div>
+    </header>
+
+    <main>
+      <!-- boook list section -->
+      <section id="awesome-books">
+        <h1 class="intro-header">All awesome books</h1>
+        <!-- added books -->
+        <div id="books-list"></div>
+      </section>
+      <!-- input section to add books -->
+      <section id="input-form">
+        <form action="#" id="add-book-form">
+          <h2>Add a new book</h2>
+          <input type="text" placeholder="Title" name="title" required />
+          <input type="text" placeholder="Author" name="author" required />
+          <input type="submit" value="Add" />
+        </form>
+      </section>
+      <!-- contact sectiom -->
+      <section id="contact-info">
+        <h1>Contact information</h1>
+        <p>
+          Do you have any questions, or you just want to say "Hello"? <br />You
+          can reach out to us!
+        </p>
+        <ul>
+          <li>Our e-mail: abrahamibizugbe@gmail.com</li>
+          <li>Our phone number: +2348171775505</li>
+          <li>Our address: NIGERIANS APART, 84503 Lagos, Nigeria</li>
+        </ul>
+      </section>
+    </main>
+    <!-- FOOTER CONTENT -->
+    <footer>
+      <p>Copyright ...</p>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

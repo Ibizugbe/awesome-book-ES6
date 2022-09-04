@@ -64,7 +64,7 @@ to check for webhint, eslint and style lint errors
 👤 **Abraham Ibizugbe**
 
 - GitHub: [@Ibizigbe](https://github.com/Ibizugbe)
-- LinkedIn: [Abraham Ibizugbe](https://www.linkedin.com/in/abraham-ibizugbe-763791115/)nhandle)
+- LinkedIn: [Abraham Ibizugbe](https://www.linkedin.com/in/abraham-ibizugbe-763791115/)
 
 ## 🤝 Contributing
 
